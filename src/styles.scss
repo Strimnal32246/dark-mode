@@ -175,6 +175,8 @@ img {
 
 .navbar {
   align-items       : center;
+  color             : skyblue;
+  background        : hotpink;
   border-bottom     : 1px solid rgb(221, 221, 221);
   display           : flex;
   height            : 100px;
@@ -190,13 +192,13 @@ img {
   background   : papayawhip;
   border-radius: 50px;
   border       : 1px solid black;
-  height       : 20px;
+  height       : 30px;
   position     : relative;
-  width        : 40px;
+  width        : 50px;
 }
 
 .toggle {
-  background   : #f68819;
+  background   : darkmagenta;
   border-radius: 50px;
   height       : 18px;
   left         : 0;
@@ -249,11 +251,12 @@ img {
 }
 
 .dark-mode {
-  color           : #fff;
+  color           : hotpink;
   background-color: #313843;
 
   .navbar {
-    background-color: #1F2022;
+    background-color: skyblue;
+    color           : hotpink;
     border          : none;
   }
 }
